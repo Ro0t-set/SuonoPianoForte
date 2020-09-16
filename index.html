@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Piano</title>
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <center>
+      <h1 class="titolo">SuonoPianoForte.js</h1>
+      <h1 class="nota" id="nota"></h1>
+    <div class="piano">
+      <button class="do bianco" onclick="playSound(DO); nota.innerHTML='DO'; "></button>
+      <button class="dob nero" onclick="playSound(DOB); nota.innerHTML='DO#';"></button>
+      <button class="re bianco" onclick="playSound(RE); nota.innerHTML='RE';"></button>
+      <button class="reb nero" onclick="playSound(REB); nota.innerHTML='RE#';"></button>
+      <button class="mi bianco" onclick="playSound(MI); nota.innerHTML='MI';"></button>
+      <button class="fa bianco" onclick="playSound(FA); nota.innerHTML='FA';"></button>
+      <button class="fab nero" onclick="playSound(FAB); nota.innerHTML='FA#';"></button>
+      <button class="sol bianco" onclick="playSound(SOL); nota.innerHTML='SOL';"></button>
+      <button class="solb nero" onclick="playSound(SOLB); nota.innerHTML='SOL#';"></button>
+      <button class="la bianco" onclick="playSound(LA); nota.innerHTML='LA';"></button>
+      <button class="lab nero" onclick="playSound(LAB); nota.innerHTML='LA#';"></button>
+      <button class="si bianco" onclick="playSound(SI); nota.innerHTML='SI';"></button>
+      <button class="doA bianco" onclick="playSound(DOA); nota.innerHTML='DO';"></button>
+
+    </div>
+
+  </center>
+  <script src="script.js"></script>
+  </body>
+</html>
